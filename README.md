@@ -1,21 +1,16 @@
-Overview
-This Python project implements a simple image steganography tool that allows users to hide text data within an image using the Pillow library for image processing and Tkinter for the graphical user interface (GUI). Steganography is the art of hiding information within another seemingly innocuous medium.
+Image Steganography is a fascinating technique that allows you to hide secret information within an image. In this project, we’ll use Python, along with the Tkinter library for creating a graphical user interface (GUI), and the Pillow library for image manipulation.
 
-Features
-Encoding: Embed any text message into an image.
-Decoding: Retrieve the hidden text from an encoded image.
-User-Friendly GUI: Utilizes Tkinter for a straightforward and intuitive user interface.
-Secure: Basic level of security through the use of a password.
-Technologies Used
-Pillow (PIL): For image processing and manipulation.
-Tkinter: For building the graphical user interface.
-Usage
-Launch the application.
-Select an image file for encoding or decoding.
-Enter the text message to be encoded or click the 'Decode' button for decoding.
-Follow on-screen instructions.
-Contributing
-Contributions are welcome! Fork the repository, create a branch, commit your changes, and open a pull request.
+Here’s a high-level overview of how the process works:
+
+Select an Image: First, you choose an image (the “cover image”) that will hide your secret data. It could be a photograph, artwork, or any image file.
+
+Encode the Secret Data: Next, you encode your secret message or file into the cover image. This involves altering the pixel values of the image in a way that’s imperceptible to the human eye. The secret data is embedded within the least significant bits of the image pixels.
+
+Save the Modified Image: The modified image, now containing the hidden data, is saved as a new file. This file can be shared with others, and they won’t know that it contains hidden information.
+
+Decoding: To retrieve the hidden data, someone else can use the same software to decode the modified image. The decoding process extracts the secret message or file from the altered pixel values.
+
+Tkinter provides a simple way to create a user-friendly interface where users can select an image and input their secret message. The Pillow library allows us to manipulate the image pixels and perform the encoding and decoding steps.
 
 License
 This project is licensed under the MIT License.
