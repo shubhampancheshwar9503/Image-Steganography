@@ -6,7 +6,7 @@ This Python-based application implements image steganography techniques using Tk
 
 ##Features
 
-##User-Friendly GUI: Designed with Tkinter to provide an intuitive interface for image selection, message input, and text extraction.
+#User-Friendly GUI: Designed with Tkinter to provide an intuitive interface for image selection, message input, and text extraction.
 #Image Support: Compatible with PNG, JPEG, and JPG formats.
 #Dynamic Image Handling: Includes image resizing and display capabilities for ease of use.
 #Error Handling: Provides feedback to users in case of incorrect operations or missing input.
