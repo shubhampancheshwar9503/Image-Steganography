@@ -3,16 +3,19 @@ This Python-based application implements image steganography techniques using Tk
 
 ##Encode Messages: Hide text within image files by modifying pixel values.
 ##Decode Messages: Retrieve hidden text from encoded images.
-Features
-##User-Friendly GUI: Designed with Tkinter to provide an intuitive interface for image selection, message input, and text extraction.
-##Image Support: Compatible with PNG, JPEG, and JPG formats.
-##Dynamic Image Handling: Includes image resizing and display capabilities for ease of use.
-##Error Handling: Provides feedback to users in case of incorrect operations or missing input.
+
+##Features
+##ser-Friendly GUI: Designed with Tkinter to provide an intuitive interface for image selection, message input, and text extraction.
+#Image Support: Compatible with PNG, JPEG, and JPG formats.
+#Dynamic Image Handling: Includes image resizing and display capabilities for ease of use.
+#Error Handling: Provides feedback to users in case of incorrect operations or missing input.
+
 ##Technologies Used
 #Python: Core programming language.
 #Tkinter: GUI framework for creating the application interface.
 #PIL (Pillow): Library for opening, manipulating, and saving image files.
 #BytesIO: For in-memory file operations.
+
 ##How to Use
 #Encode Text:
 
