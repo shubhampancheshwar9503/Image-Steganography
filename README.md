@@ -1,20 +1,47 @@
-Image Steganography is a fascinating technique that allows you to hide secret information within an image. In this project, we’ll use Python, along with the Tkinter library for creating a graphical user interface (GUI), and the Pillow library for image manipulation.
+# Image Steganography Application
+This Python-based application implements image steganography techniques using Tkinter for the graphical user interface (GUI) and the PIL (Pillow) library for image processing. The application allows users to:
 
-Here’s a high-level overview of how the process works:
+##Encode Messages: Hide text within image files by modifying pixel values.
+##Decode Messages: Retrieve hidden text from encoded images.
+Features
+##User-Friendly GUI: Designed with Tkinter to provide an intuitive interface for image selection, message input, and text extraction.
+##Image Support: Compatible with PNG, JPEG, and JPG formats.
+##Dynamic Image Handling: Includes image resizing and display capabilities for ease of use.
+##Error Handling: Provides feedback to users in case of incorrect operations or missing input.
+##Technologies Used
+#Python: Core programming language.
+#Tkinter: GUI framework for creating the application interface.
+#PIL (Pillow): Library for opening, manipulating, and saving image files.
+#BytesIO: For in-memory file operations.
+##How to Use
+#Encode Text:
 
-Select an Image: First, you choose an image (the “cover image”) that will hide your secret data. It could be a photograph, artwork, or any image file.
+Select an image where you want to hide text.
+Enter the text message and encode it into the image.
+Save the modified image.
+#Decode Text:
 
-Encode the Secret Data: Next, you encode your secret message or file into the cover image. This involves altering the pixel values of the image in a way that’s imperceptible to the human eye. The secret data is embedded within the least significant bits of the image pixels.
+Select an image that contains hidden text.
+Retrieve and display the hidden message.
+##Installation
+To run this application, make sure you have the following Python packages installed:
 
-Save the Modified Image: The modified image, now containing the hidden data, is saved as a new file. This file can be shared with others, and they won’t know that it contains hidden information.
+tkinter
+Pillow
+You can install Pillow using pip:
 
-Decoding: To retrieve the hidden data, someone else can use the same software to decode the modified image. The decoding process extracts the secret message or file from the altered pixel values.
+bash
+Copy code
+pip install Pillow
+Usage
+Clone the repository:
 
-Tkinter provides a simple way to create a user-friendly interface where users can select an image and input their secret message. The Pillow library allows us to manipulate the image pixels and perform the encoding and decoding steps.
+bash
+Copy code
+git clone <repository-url>
+Run the application:
 
-License
-This project is licensed under the MIT License.
-
-Acknowledgments
-Special thanks to Pillow and Tkinter for their excellent libraries.
-Feel free to adapt the sections based on the specifics of your project. You can also include more detailed instructions, a roadmap for future development, or any other relevant information.
+bash
+Copy code
+python <script-name>.py
+Replace <repository-url> with the URL of your GitHub repository and <script-name> with the name of your Python script.
