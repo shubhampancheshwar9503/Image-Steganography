@@ -1,52 +1,46 @@
-# Image Steganography Application
-This Python-based application implements image steganography techniques using Tkinter for the graphical user interface (GUI) and the PIL (Pillow) library for image processing. The application allows users to:
+# Image Steganography
 
-#Encode Messages: Hide text within image files by modifying pixel values.
-#Decode Messages: Retrieve hidden text from encoded images.
+This Python application implements basic image steganography using the Tkinter GUI library and the Pillow (PIL) library for image manipulation. It allows users to encode and decode hidden text within images using the Least Significant Bit (LSB) method.
 
 ## Features
 
-#User-Friendly GUI: Designed with Tkinter to provide an intuitive interface for image selection, message input, and text extraction.
-#Image Support: Compatible with PNG, JPEG, and JPG formats.
-#Dynamic Image Handling: Includes image resizing and display capabilities for ease of use.
-#Error Handling: Provides feedback to users in case of incorrect operations or missing input.
-
-## Technologies Used
-
-#Python: Core programming language.
-#Tkinter: GUI framework for creating the application interface.
-#PIL (Pillow): Library for opening, manipulating, and saving image files.
-#BytesIO: For in-memory file operations.
-
-## How to Use
-
-#Encode Text:
-
-Select an image where you want to hide text.
-Enter the text message and encode it into the image.
-Save the modified image.
-
-#Decode Text:
-
-Select an image that contains hidden text.
-Retrieve and display the hidden message.
+- **Encode Text:** Embed a text message into a selected image.
+- **Decode Text:** Retrieve hidden text from a steganographed image.
+- **GUI Interface:** User-friendly interface for selecting images and entering text using Tkinter.
+- **Image Handling:** Supports PNG, JPEG, and JPG formats for both encoding and decoding.
 
 ## Installation
 
-To run this application, make sure you have the following Python packages installed:
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/shubhampancheshwar9503/image-steganography.git
+   ```
 
-tkinter
-Pillow
-You can install Pillow using pip:
+2. **Install Dependencies:**
+   ```bash
+   pip install pillow
+   ```
 
-pip install Pillow
-Usage
+## Usage
 
-Clone the repository:
+1. **Run the Application:**
+   ```bash
+   python image_steganography.py
+   ```
 
-git clone <repository-url>
+2. **Encoding Text:**
+   - Select an image to hide the text in.
+   - Enter the text message.
+   - Save the modified image.
 
-Run the application:
+3. **Decoding Text:**
+   - Select an image with hidden text.
+   - View the extracted text message.
 
-python <script-name>.py
-Replace <repository-url> with the URL of your GitHub repository and <script-name> with the name of your Python script.
+## Contributing
+
+Feel free to open issues or submit pull requests for improvements.
+
+---
+
+Replace `https://github.com/shubhampancheshwar9503/Image-Steganography` with the actual URL of your GitHub repository.
